@@ -9,8 +9,8 @@ dependency on portage.
 Classes
 -------
 
-`EOutput`
-*********
+``EOutput``
+***********
 
 Performs fancy terminal formatting for status and informational messages as
 known by various init script implementations.
@@ -26,8 +26,8 @@ Example Usage:
     out.ebegin('Starting skynet')
     out.eend(0)
 
-The argument to `EOutput.eend()` is a standard UNIX errno code. `0` renders
-a success and `1` or above a error status message.
+The argument to ``EOutput.eend()`` is a standard UNIX errno code. ``0`` renders
+a success and ``1`` or above a error status message.
 
 In a real world example you would usually make the result dependent an a
 certain condition or spit out a warning.
@@ -49,8 +49,8 @@ certain condition or spit out a warning.
         out.eend(1)
 
 
-`TermProgressBar`
-*****************
+``TermProgressBar``
+*******************
 
 A tty progress bar similar to wget's.
 
