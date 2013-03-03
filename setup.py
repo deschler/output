@@ -16,7 +16,7 @@ setup(
     packages=['output'],
     download_url='https://github.com/downloads/deschler/output/output-%s.tar.gz' % version,
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 3 - Alpha',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
@@ -26,6 +26,8 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Topic :: System :: Shells',
+
     ],
     license='GPLv2'
 )
