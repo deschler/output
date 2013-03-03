@@ -8,11 +8,8 @@ version = __import__('output').get_version()
 setup(
     name='output',
     version=version,
-    description='Little output helpers for your Python shell scripts.',
-    long_description=(
-        'Provides some helpers for better looking shell output. It is based on the '
-        'output module found in Gentoo, but removes the dependency to portage.'
-    ),
+    description='Fancy output for your Python shell scripts.',
+    long_description=open('README.rst').read(),
     author='Dirk Eschler',
     author_email='eschler@gmail.com',
     url='https://github.com/deschler/output',
