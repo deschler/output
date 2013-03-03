@@ -4,7 +4,7 @@
 # which is distributed under the terms of the BSD License
 # Copyright (c) 2005-2013 Django Software Foundation and individual contributors
 
-VERSION = (0, 1, 0, 'stable', 0)
+VERSION = (0, 1, 0, 'final', 0)
 
 
 def get_version(version=None):
