@@ -20,7 +20,7 @@ Example Usage:
 
 .. code-block:: python
 
-    from output import EOutput
+    from output.eoutput import EOutput
 
     out = EOutput()
     out.ebegin('Starting skynet')
@@ -35,7 +35,7 @@ certain condition or spit out a warning.
 .. code-block:: python
 
     import random
-    from output import EOutput
+    from output.eoutput import EOutput
 
     level = random.randint(50, 125)
     out = EOutput()
@@ -60,7 +60,7 @@ Example Usage:
 .. code-block:: python
 
     from time import sleep
-    from output import TermProgressBar
+    from output.progress import TermProgressBar
 
     pb = TermProgressBar()
     for i in range(1, 100):
@@ -75,7 +75,8 @@ isn't verbose about what's going on. Well - it's a progress bar.
 
     import random
     from time import sleep
-    from output import EOutput, TermProgressBar
+    from output.eoutput import EOutput
+    from output.progress import TermProgressBar
 
     level = random.randint(50, 125)
     out = EOutput()
